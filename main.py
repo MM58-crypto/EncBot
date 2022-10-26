@@ -108,6 +108,6 @@ async def on_message(message):
       db["responding"] = False 
       await message.channel.send("Responding is deactivated")
 # to run the bot
-token = 'MTAzMTU3MDA3OTU4ODAzNjYxOQ.GVZLOA.Zo5HnlRDlDEDSOVnuX1F_FduxJoKyAuuVDHolY'
+#token is in a seperate file
 client.run(token)
 
